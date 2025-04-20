@@ -11,7 +11,7 @@ const Sidebar = () => {
 
     return (
         <div className={`${isMinimized ? 'w-20' : 'w-70'} transition-all duration-500 lg:border-e lg:border-e-gray-200 lg:fixed lg:top-0 lg:bottom-0 
-        lg:z-20 lg:flex flex-col items-stretch shrink-0`}>
+        lg:z-20 lg:flex flex-col items-stretch shrink-0 overflow-hidden`}>
             <SidebarHead isMinimized={isMinimized} toggleSidebar={() => dispatch(toggleSidebar())} />
             <SidebarContent isMinimized={isMinimized} />
         </div>
