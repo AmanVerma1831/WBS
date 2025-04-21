@@ -23,7 +23,7 @@ const Card1 = () => {
             </div>
             <div>
                 <img src="https://whatsappbulk.co.in/inc/core/Whatsapp/Assets/img/bg-send.png"
-                    class="h-full max-h-50" />
+                    className="h-full max-h-50" />
             </div>
         </div>
     )

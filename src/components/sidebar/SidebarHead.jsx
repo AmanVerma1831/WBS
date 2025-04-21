@@ -18,7 +18,7 @@ const SidebarHead = ({ isMinimized, toggleSidebar }) => {
                 onClick={toggleSidebar}
                 className="size-7 rounded-lg border bg-light text-gray-500 hover:text-gray-700 
             absolute start-full top-2/4 rtl:translate-x-2/4 -translate-x-2/4 -translate-y-2/4 border-gray-200
-            bg-white flex justify-center items-center
+            bg-white flex justify-center items-center cursor-pointer
             dark:border-gray-300" aria-label="Toggle sidebar">
                 {isMinimized ?
                     <MdKeyboardDoubleArrowRight className="transition-all duration-300 rtl:rotate-180" /> :

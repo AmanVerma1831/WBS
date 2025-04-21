@@ -31,6 +31,7 @@ const DonutChart = () => {
                                 showAlways: true,
                                 show: true,
                                 label: "Total Message",
+                                fontSize: "14px",
                                 fontFamily: "Inter, sans-serif",
                                 formatter: function (w) {
                                     const sum = w.globals.seriesTotals.reduce((a, b) => a + b, 0);
@@ -40,11 +41,12 @@ const DonutChart = () => {
                             value: {
                                 show: true,
                                 fontFamily: "Inter, sans-serif",
+                                fontSize: "20px",
                                 offsetY: -20,
                                 formatter: (value) => value + "k",
                             },
                         },
-                        size: "80%",
+                        size: "60%",
                     },
                 },
             },
@@ -58,8 +60,9 @@ const DonutChart = () => {
                 enabled: false,
             },
             legend: {
-                position: "bottom",
+                position: "left",
                 fontFamily: "Inter, sans-serif",
+                fontSize: "16px",
             },
             yaxis: {
                 labels: {

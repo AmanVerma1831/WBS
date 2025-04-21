@@ -1,6 +1,6 @@
 import React from 'react'
 import { RiVerifiedBadgeFill } from "react-icons/ri";
-import { MdOutlineLocationOn } from "react-icons/md";
+import { BiPurchaseTag } from "react-icons/bi";
 import { MdMailOutline } from "react-icons/md";
 import { FcExpired } from "react-icons/fc";
 
@@ -16,22 +16,22 @@ const DPcard = () => {
                     </div>
                     <RiVerifiedBadgeFill className='text-blue-600' />
                 </div>
-                <div class="flex flex-wrap justify-center gap-1 lg:gap-6 text-sm">
-                    <div class="flex gap-1.25 items-center">
+                <div className="flex flex-wrap justify-center gap-1 lg:gap-6 text-sm">
+                    <div className="flex gap-1.25 items-center">
                         <MdMailOutline className='text-gray-500 text-lg mt-0.5' />
-                        <a class="text-gray-600 font-medium hover:text-primary" href="mailto: jenny@kteam.com">
+                        <a className="text-gray-600 font-medium hover:text-primary" href="mailto: jenny@kteam.com">
                             jenny@kteam.com
                         </a>
                     </div>
-                    <div class="flex gap-1.25 items-center">
-                        <MdOutlineLocationOn className='text-gray-500 text-lg' />
-                        <span class="text-gray-600 font-medium">
-                            SF, Bay Area
+                    <div className="flex gap-1.25 items-center">
+                        <BiPurchaseTag className='text-gray-500 text-lg' />
+                        <span className="text-gray-600 font-medium">
+                            Free & Trial
                         </span>
                     </div>
-                    <div class="flex gap-1.25 items-center">
+                    <div className="flex gap-1.25 items-center">
                         <FcExpired className='text-xl' />
-                        <span class="text-gray-600 font-medium">
+                        <span className="text-gray-600 font-medium">
                             Expire date: 17-04-2026
                         </span>
                     </div>
